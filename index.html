@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>Landing Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landingpage.css">
+      <style>
+        body{
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  background-image:url("vegetable\ image.jpg");
+}
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .logo{
+    font-size: 35px;
+    display: flex;
+    color: white;
+    padding: 0.15px;
+    margin-right:300px;
+    align-items:center;
+    font-weight: bold;
+    box-shadow: 10;
+    height: auto;
+    box-shadow: 0 2px 4px white;
+    border-radius:50%;
+    
+  }
+  .logo  span{
+    color: red;
+  }
+ 
+  .menu ul li{
+    display: inline-block;
+    margin: 0.15px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color:#fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: montserrat;
+  }
+  .menu ul li a:hover{
+    background: greenyellow;
+    color: black;
+  }
+  .btn a{
+    text-decoration: none;
+    background-color: green;
+    color: whitesmoke;
+    text-shadow: 20%;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin:center;
+  }
+
+  .btn a:hover{
+    background: white;
+    color: green;
+  }
+
+  .header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url();
+    background-size: cover;
+    padding: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .content{
+    color: white;
+    text-align: left;
+    align-items: center;
+  }
+  .content h1{
+    font-size: 60px;
+    align-items: center;
+   text-align: left;
+  }
+  .content h3{
+    line-height: 1.7;
+  }
+  .content p{
+    margin: 15px 0 40px;
+  }
+
+  .content input[type="button"]{
+    background: white;
+    color: black;
+    padding: 10px;
+    padding-right: 150px 190px ;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat;
+  }
+  .content input[type="button"]:hover{
+    background-color: gray;
+    color: black;
+  }
+      </style>
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+            <div class="logo">Food <span>Hub</span></div>
+            <div class="menu">
+              <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about" >ABOUT US</a></li>
+              <li><a href="#list">SERVICES</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            </div> 
+            <center>
+            <div class="btn">
+              <a href="#login">SignUp</a>
+              </div>
+            </center> 
+              </nav>    
+          <div class="content">
+            <h1>SPICY AND CRISPY</h1>
+            <h2>"A Recipe has no Soul. You,as the Cook,must Bring Soul to the Recipe."</h2>
+            <h3>Food is not just a means of substance ;its a cultural,social,and sensory<br> expeience taht brings people together.It reflects the diversity of our world<br>
+              ,with each culture contributing its unique flavours,ingredients ,and cooking techniques.
+            </h3>
+            <input type="button" value="Learn More" name="Learn more">
+          </div>
+        </div>
+    </body>
+</html>
